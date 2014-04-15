@@ -58,3 +58,6 @@ production:
   pool: 5
   username: spiceRack
   password:
+  
+  #Enable Heroku features
+  gem 'rails_12factor', group: :production
