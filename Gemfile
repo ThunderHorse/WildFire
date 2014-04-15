@@ -44,3 +44,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+  #Enable Heroku features
+  gem 'rails_12factor', group: :production
