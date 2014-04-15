@@ -1,28 +1,29 @@
-== README
+== spiceRack README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application serves as a starting application for users that have
+installed Ruby on Rails and want to get started with a functional 
+web application.
 
-Things you may want to cover:
+Details:
 
-* Ruby version
+* Ruby 1.9.3
 
-* System dependencies
+* I developed this on a Windows 8 box. You may need to tweak this. Good Luck.
 
-* Configuration
+* Utilizes PostGreSql
 
-* Database creation
+* Database creation <-- TODO
 
-* Database initialization
+* Database initialization <-- TODO
 
-* How to run the test suite
+* How to run the test suite <-- TODO
 
-* Services (job queues, cache servers, search engines, etc.)
+* Services (job queues, cache servers, search engines, etc.) <-- TODO
 
-* Deployment instructions
+* Deployment instructions <-- TODO
 
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
+TODO: Make more really cool boxes like this one: 
 <tt>rake doc:app</tt>.
