@@ -7,8 +7,42 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id='Banner'>
+    <a id='Logo' href="http://wildfiresparklove.org">
+      <%= image_tag("logo_Small.jpg", :alt => "Spark Love", :height => 70) %>
+    </a>
 
-<%= yield %>
-
+      <ul id='NavMenu'>
+        <li class="nav_link"><a href="http://www.google.com">Home</a></li>
+        <li class="nav_link"><a href="http://www.google.com">About</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Events</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Contact</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Spark</a></li>
+      </ul>
+</div>
+<div id="ContentOptions">
+  <!-- Place Content specific options here -->
+  <span id="ContentTitle">
+    <%= yield(:contentTitle) %>
+  </span>
+</div>
+<div id="ContentArea">
+  <div id="ContentMain">
+    <%= yield %>
+  </div>
+</div>
+<div id ="Footer">
+  <div id="FooterText">
+    Wild Fire LLC 2014 | 1234 Address Street Indianapolis IN 42667 | (317) - 333 - 4444
+  </div>
+  <div id="FooterSocialLinks">
+    <a  href="http://www.google.com">
+      <%= image_tag("facebook.png", :alt => "Find Us on Facebook!", :height => 35) %>
+    </a>
+    <a  href="http://www.google.com">
+      <%= image_tag("twitter.png", :alt => "Find Us on Twitter!", :height => 35) %>
+    </a>
+  </div>
+</div>
 </body>
 </html>

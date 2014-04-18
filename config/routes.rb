@@ -9,7 +9,7 @@ SpiceRack::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   #SpiceRack Root Page
-    root 'welcome#index'
+    root 'organization#home'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

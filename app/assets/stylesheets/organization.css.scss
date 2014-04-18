@@ -1,3 +1,113 @@
 // Place all the styles related to the Organization controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//SiteWide Banner
+#Banner
+{
+  width: 100%;
+  padding: 0 20px;
+  display: block;
+  margin: 0 auto;
+  height: 80px;
+}
+
+//Logo
+#Logo
+{
+  position: absolute;
+  left: 20px;
+  display: block;
+}
+
+// Navigation Menu
+#NavMenu
+{
+  padding-left: 70px;
+  padding-right: 120px;
+  padding-top: 25px;
+}
+
+//Navigation Links
+.nav_link
+{
+  display: inline;
+  float: left;
+  margin-left: 25px;
+}
+
+.nav_link a
+{
+  color: darkslategray;
+  font-family:Arial;
+  font-size: 90%;
+  font-weight: 600;
+}
+
+//Sitewide Links
+a
+{
+  text-decoration: none;
+}
+
+// Content Section
+#ContentOptions
+{
+  padding-top: 25px;
+  height: 50px;
+  background-color: #f47320;
+  width: 100%;
+  position: absolute;
+  right: 1px;
+}
+
+#ContentTitle
+{
+  display: inline;
+  padding-left: 25px;
+  color: white;
+  font-family:Arial;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+#ContentMain
+{
+  margin-top: 75px;
+  background-color: #e4e3d5;
+  width:100%;
+  position: absolute;
+  right:1px;
+}
+
+.content
+{
+  padding-left: 22px;
+  height: 500px;
+}
+
+// Footer
+#Footer
+{
+  background-color:#3f4944;
+  height: 200px;
+  margin-top: 575px;
+  width:100%;
+  position: absolute;
+  right:1px;
+  text-align: center;
+}
+
+#FooterText
+{
+  color: white;
+  font-family: Arial;
+  font-size:small;
+  margin-bottom: 10px;
+  margin-top: 90px;
+}
+
+#FooterSocialLinks
+{
+
+}

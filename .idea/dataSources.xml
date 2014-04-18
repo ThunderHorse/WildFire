@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2092650345">
+    <data-source source="LOCAL" name="Rails WildFire: development" uuid="4e031658-10ff-452c-9b12-dbb9cac03b76">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wildFire_development</jdbc-url>
+      <user-name>wildFire</user-name>
+      <user-password>dfdddfc3dfc6dfcedfecdfc3dfd8dfcf</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails WildFire: test" uuid="022605f0-c3a7-4f11-bf96-55ac3a14b20a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wildFire_test</jdbc-url>
+      <user-name>wildFire</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails WildFire: production" uuid="2284254f-c583-45c3-8472-e7f1dce3dc34">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:wildFire_production</jdbc-url>
+      <user-name>wildFire</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
