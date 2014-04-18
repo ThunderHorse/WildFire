@@ -1,4 +1,10 @@
 SpiceRack::Application.routes.draw do
+  get "organization/home"
+  get "organization/about"
+  get "organization/spark"
+  get "organization/donate"
+  get "organization/events"
+  get "organization/contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
