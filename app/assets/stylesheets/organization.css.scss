@@ -2,6 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html{
+  font-size: 16px;
+}
+
+body
+{
+  color: darkslategray;
+  font-family: Arial;
+  font-size: 62.5%; /* 1em = 10px */
+}
+
 //SiteWide Banner
 #Banner
 {
@@ -10,6 +21,7 @@
   display: block;
   margin: 0 auto;
   height: 80px;
+  max-width: 1200px;
 }
 
 //Logo
@@ -18,6 +30,17 @@
   position: absolute;
   left: 20px;
   display: block;
+  float: right;
+}
+
+//Logo Grid
+#LogoGrid
+{
+}
+
+// Navigation Grid
+#NavGrid
+{
 }
 
 // Navigation Menu
@@ -32,16 +55,13 @@
 .nav_link
 {
   display: inline;
-  float: left;
+  float: right;
   margin-left: 25px;
 }
 
 .nav_link a
 {
-  color: darkslategray;
-  font-family:Arial;
-  font-size: 90%;
-  font-weight: 600;
+  text-transform: uppercase;
 }
 
 //Sitewide Links
@@ -59,6 +79,7 @@ a
   width: 100%;
   position: absolute;
   right: 1px;
+  display: none;
 }
 
 #ContentTitle
@@ -66,15 +87,12 @@ a
   display: inline;
   padding-left: 25px;
   color: white;
-  font-family:Arial;
-  font-size: 150%;
   font-weight: bold;
 }
 
 #ContentMain
 {
-  margin-top: 75px;
-  background-color: #e4e3d5;
+  background-color: #efede8;
   width:100%;
   position: absolute;
   right:1px;
@@ -83,15 +101,15 @@ a
 .content
 {
   padding-left: 22px;
-  height: 500px;
+  height: 800px;
 }
 
 // Footer
 #Footer
 {
   background-color:#3f4944;
-  height: 200px;
-  margin-top: 575px;
+  height: 225px;
+  margin-top: 620px;
   width:100%;
   position: absolute;
   right:1px;
@@ -101,10 +119,8 @@ a
 #FooterText
 {
   color: white;
-  font-family: Arial;
-  font-size:small;
   margin-bottom: 10px;
-  margin-top: 90px;
+  margin-top: 160px;
 }
 
 #FooterSocialLinks

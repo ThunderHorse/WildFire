@@ -8,17 +8,20 @@
 </head>
 <body>
 <div id='Banner'>
-    <a id='Logo' href="http://wildfiresparklove.org">
-      <%= image_tag("logo_Small.jpg", :alt => "Spark Love", :height => 70) %>
-    </a>
-
+    <div class='LogoGrid'>
+        <a id='Logo' href="http://wildfiresparklove.org">
+          <%= image_tag("logo_Small.jpg", :alt => "Spark Love", :height => 70) %>
+        </a>
+    </div>
+    <div id='NavGrid'>
       <ul id='NavMenu'>
-        <li class="nav_link"><a href="http://www.google.com">Home</a></li>
-        <li class="nav_link"><a href="http://www.google.com">About</a></li>
-        <li class="nav_link"><a href="http://www.google.com">Events</a></li>
-        <li class="nav_link"><a href="http://www.google.com">Contact</a></li>
         <li class="nav_link"><a href="http://www.google.com">Spark</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Contact</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Events</a></li>
+        <li class="nav_link"><a href="http://www.google.com">About</a></li>
+        <li class="nav_link"><a href="http://www.google.com">Home</a></li>
       </ul>
+    </div>
 </div>
 <div id="ContentOptions">
   <!-- Place Content specific options here -->
@@ -37,10 +40,10 @@
   </div>
   <div id="FooterSocialLinks">
     <a  href="http://www.google.com">
-      <%= image_tag("facebook.png", :alt => "Find Us on Facebook!", :height => 35) %>
+      <%= image_tag("facebook.png", :alt => "Find Us on Facebook!", :height => 25) %>
     </a>
     <a  href="http://www.google.com">
-      <%= image_tag("twitter.png", :alt => "Find Us on Twitter!", :height => 35) %>
+      <%= image_tag("twitter.png", :alt => "Find Us on Twitter!", :height => 25) %>
     </a>
   </div>
 </div>
