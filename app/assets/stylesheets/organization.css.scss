@@ -79,7 +79,6 @@ section, header, nav {
 .grid-box {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left;
   margin: 0;
   padding-left: 15px;
   padding-right: 15px;
@@ -88,11 +87,13 @@ section, header, nav {
 
 .grid-box--1of2 {
   width: 50%;
+  float: left;
 }
 
 .grid-box--2of2 {
   width: 50%;
   height: 65px;
+  float: right;
 }
 
 .nav--site {
@@ -102,8 +103,8 @@ section, header, nav {
 .nav-link
 {
   display: inline;
-  float: right;
   margin-left: 25px;
+  float: right;
 }
 
 .nav-link a
@@ -118,4 +119,57 @@ section, header, nav {
   margin-top: 50px;
   min-height:600px;
   background-color: #efede8;
+}
+
+@media screen and (max-width: 720px) {
+  .l-header {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+
+  .l-row {
+    padding-bottom: 0px;
+  }
+
+  .l-row--intro {
+    margin-top: 0px;
+  }
+
+  .grid-box--1of2 {
+    width: inherit;
+    float: none;
+    text-align: center;
+  }
+
+  .grid-box--2of2 {
+    margin-bottom: 5px;
+    width: inherit;
+    height: 22px;
+    float: none;
+    text-align: center;
+  }
+
+  .nav--site {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .nav--site ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .nav-link
+  {
+    display: inline;
+    margin-left: 5px;
+    float: none;
+  }
+
+  .content
+  {
+    margin-top: 0px;
+  }
 }
