@@ -32,31 +32,47 @@ p{
   max-width: 1200px;
 }
 
-//Logo
-#Logo
-{
-  position: absolute;
-  left: 20px;
+.l-header {
+  padding: 20px 0 30px;
+}
+
+.l-cell {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 50px;
+}
+
+.grid {
   display: block;
-  float: right;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
-//Logo Grid
-#LogoGrid
-{
+.grid-box {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
 
-// Navigation Grid
-#NavGrid
-{
+.grid-box--1of2 {
+  width: 50%;
 }
 
-// Navigation Menu
-#NavMenu
-{
-  padding-left: 70px;
-  padding-right: 120px;
-  padding-top: 25px;
+.grid-box--2of2 {
+  width: 50%;
+  height: 65px;
+}
+
+.nav--site {
+  margin-top: 45px;
+}
+
+header, nav {
+  display: block;
 }
 
 //Navigation Links
@@ -102,6 +118,7 @@ a
 
 #ContentMain
 {
+  margin-top: 200px;
   background-color: #efede8;
   width:100%;
   position: absolute;
