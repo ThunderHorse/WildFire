@@ -20,43 +20,38 @@
             <div class="grid-box grid-box--2of2">
                 <nav class="nav--site" id="site-navigation">
                   <ul>
-                    <li class="nav_link"><a href="http://www.google.com">Spark</a></li>
-                    <li class="nav_link"><a href="http://www.google.com">Contact</a></li>
-                    <li class="nav_link"><a href="http://www.google.com">Events</a></li>
-                    <li class="nav_link"><a href="http://www.google.com">About</a></li>
-                    <li class="nav_link"><a href="http://www.google.com">Home</a></li>
+                    <li class="nav-link"><a href="http://www.google.com">Spark</a></li>
+                    <li class="nav-link"><a href="http://www.google.com">Contact</a></li>
+                    <li class="nav-link"><a href="http://www.google.com">Events</a></li>
+                    <li class="nav-link"><a href="http://www.google.com">About</a></li>
+                    <li class="nav-link"><a href="http://www.google.com">Home</a></li>
                   </ul>
                 </nav>
             </div>
         </div>
     </div>
 </header>
-
-
-
-<div id="ContentOptions">
-  <!-- Place Content specific options here -->
-  <span id="ContentTitle">
-    <%= yield(:contentTitle) %>
-  </span>
-</div>
-<div id="ContentArea">
-  <div id="ContentMain">
-    <%= yield %>
-  </div>
-</div>
-<div id ="Footer">
-  <div id="FooterText">
-    Wild Fire LLC 2014 | 1234 Address Street Indianapolis IN 42667 | (317) - 333 - 4444
-  </div>
-  <div id="FooterSocialLinks">
-    <a  href="http://www.google.com">
-      <%= image_tag("facebook.png", :alt => "Find Us on Facebook!", :height => 25) %>
-    </a>
-    <a  href="http://www.google.com">
-      <%= image_tag("twitter.png", :alt => "Find Us on Twitter!", :height => 25) %>
-    </a>
-  </div>
-</div>
+<section class="content">
+    <div class="l-row l-row--intro">
+      <div class="l-cell">
+        <%= yield %>
+      </div>
+    </div>
+</section>
+<footer class="l-row--a l-footer">
+    <div class="l-cell">
+          <p class="l-footer-copyright">
+            © Wild Fire LLC 2014 | 1234 Address Street Indianapolis IN 42667 | (317) - 333 - 4444
+          </p>
+          <div class="list--social">
+            <a  href="http://www.google.com">
+              <%= image_tag("facebook.png", :alt => "Find Us on Facebook!", :height => 25) %>
+            </a>
+            <a  href="http://www.google.com">
+              <%= image_tag("twitter.png", :alt => "Find Us on Twitter!", :height => 25) %>
+            </a>
+          </div>
+    </div>
+</footer>
 </body>
 </html>

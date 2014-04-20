@@ -2,34 +2,30 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-html{
+a {
+  text-decoration: none;
+}
+
+html {
   font-size: 16px;
 }
 
-body
-{
+body {
   color: darkslategray;
   font-family: Arial;
   font-size: 62.5%; /* 1em = 10px */
 }
 
-h1{
+h1 {
   font-size: 2.7em;
 }
 
-p{
+p {
   font-size: 1.2em;
 }
 
-//SiteWide Banner
-#Banner
-{
-  width: 100%;
-  padding: 0 20px;
+section, header, nav {
   display: block;
-  margin: 0 auto;
-  height: 80px;
-  max-width: 1200px;
 }
 
 .l-header {
@@ -40,6 +36,38 @@ p{
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 50px;
+}
+
+.l-footer {
+  bottom: 0;
+  clear: both;
+  color: #bfbeb2;
+  height: 380px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.l-footer-copyright {
+  font-size: 1.2em;
+}
+
+.l-row {
+  margin: 25px 0;
+  padding: 15px 0;
+}
+
+.l-row--a {
+  background: #3f4944;
+  color: #fff;
+}
+
+.l-row--intro {
+  margin: 30px 0 0px;
+}
+
+.list--social {
+  margin: 15px auto;
+  width: 70px;
 }
 
 .grid {
@@ -71,87 +99,23 @@ p{
   margin-top: 45px;
 }
 
-header, nav {
-  display: block;
-}
-
-//Navigation Links
-.nav_link
+.nav-link
 {
   display: inline;
   float: right;
   margin-left: 25px;
 }
 
-.nav_link a
+.nav-link a
 {
   font-weight: bold;
   font-size: 1.2em;
   text-transform: uppercase;
 }
 
-//Sitewide Links
-a
-{
-  text-decoration: none;
-}
-
-// Content Section
-#ContentOptions
-{
-  padding-top: 25px;
-  height: 50px;
-  background-color: #f47320;
-  width: 100%;
-  position: absolute;
-  right: 1px;
-  display: none;
-}
-
-#ContentTitle
-{
-  display: inline;
-  padding-left: 25px;
-  color: white;
-  font-weight: bold;
-}
-
-#ContentMain
-{
-  margin-top: 200px;
-  background-color: #efede8;
-  width:100%;
-  position: absolute;
-  right:1px;
-}
-
 .content
 {
-  padding-left: 22px;
-  height: 800px;
-}
-
-// Footer
-#Footer
-{
-  background-color:#3f4944;
-  height: 225px;
-  margin-top: 620px;
-  width:100%;
-  position: absolute;
-  right:1px;
-  text-align: center;
-}
-
-#FooterText
-{
-  color: white;
-  margin-bottom: 10px;
-  margin-top: 160px;
-  font-size: 1.1em;
-}
-
-#FooterSocialLinks
-{
-
+  margin-top: 50px;
+  min-height:600px;
+  background-color: #efede8;
 }
