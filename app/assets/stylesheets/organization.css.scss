@@ -22,6 +22,7 @@ h1 {
 
 p {
   font-size: 1.2em;
+  text-align: left;
 }
 
 section, header, nav {
@@ -44,11 +45,16 @@ section, header, nav {
   color: #bfbeb2;
   height: 380px;
   overflow: hidden;
+  padding-top: 10px;
   text-align: center;
 }
 
-.l-footer-copyright {
+.l-footer-info {
   font-size: 1.2em;
+}
+
+.l-footer-copyright, .l-footer-address, .l-footer-copyright {
+  display: inline;
 }
 
 .l-row {
@@ -66,7 +72,7 @@ section, header, nav {
 }
 
 .list--social {
-  margin: 15px auto;
+  margin: 5px auto;
   width: 70px;
 }
 
@@ -130,6 +136,18 @@ section, header, nav {
     padding: 0 0px;
   }
 
+  .l-footer {
+    margin-top: -13px;
+  }
+
+  .l-footer-copyright, .l-footer-address, .l-footer-copyright {
+    display: block;
+  }
+
+  .footer-delimiter {
+    display: none;
+  }
+
   .l-header {
     padding-bottom: 0px;
     padding-top: 0px;
@@ -187,10 +205,63 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 417px) {
+@media screen and (max-width: 401px) {
+  #accordion .grid-box--2of2 {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .content-section {
+    text-align: center;
+  }
+
+  .grid-box--1of2 {
+    margin-bottom: -15px;
+  }
+
   .mobile-nav {
     display: inherit;
     text-align: center;
     font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .nav-link
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #accordion .grid-box--2of2 {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .content-section {
+    text-align: center;
+  }
+
+  .grid-box--1of2 {
+    margin-bottom: -15px;
+  }
+
+  .mobile-nav {
+    display: inherit;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .nav-link
+  {
+    display: block;
+    margin-bottom: 5px;
   }
 }
