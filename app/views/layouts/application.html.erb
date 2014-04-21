@@ -4,7 +4,45 @@
   <title>Wild Fire</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <%= csrf_meta_tags %>
+
+
+  <script>
+      $(function() {
+          $( "#accordion" ).accordion({
+              collapsible: true
+          });
+      });
+
+      $(window).on("resize", methodToFixLayout);
+
+      $( document ).ready(function() {
+
+          methodToFixLayout( this );
+
+      });
+
+      function methodToFixLayout( e ) {
+          var winHeight = $(window).height();
+          var winWidth = $(window).width();
+          //alert('height: ' + winHeight + '  ' + 'width: ' + winWidth);
+
+          // getter
+          var active = $( "#accordion" ).accordion( "option", "active" );
+
+          if(winWidth < 400){
+              $( "#accordion" ).accordion( "option", "active", false );
+              //$( ".mobile-nav").css("display", "inherit");
+          }
+          else{
+              $( "#accordion" ).accordion( "option", "active", 0 );
+              //$( ".mobile-nav").css("display", "none");
+          }
+      }
+  </script>
 </head>
 <body>
 <header class="l-header">
@@ -17,7 +55,9 @@
                   </a>
                 </div>
             </div>
-            <div class="grid-box grid-box--2of2">
+            <div id="accordion">
+              <h3 class="mobile-nav">Menu</h3>
+              <div class="grid-box grid-box--2of2">
                 <nav class="nav--site" id="site-navigation">
                   <ul>
                     <li class="nav-link"><a href="http://www.google.com">Spark</a></li>
@@ -27,6 +67,7 @@
                     <li class="nav-link"><a href="http://www.google.com">Home</a></li>
                   </ul>
                 </nav>
+              </div>
             </div>
         </div>
     </div>

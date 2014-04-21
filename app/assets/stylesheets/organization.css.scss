@@ -70,6 +70,10 @@ section, header, nav {
   width: 70px;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .grid {
   display: block;
   margin-left: -15px;
@@ -86,12 +90,12 @@ section, header, nav {
 }
 
 .grid-box--1of2 {
-  width: 50%;
+  width: 30%;
   float: left;
 }
 
 .grid-box--2of2 {
-  width: 50%;
+  width: 70%;
   height: 65px;
   float: right;
 }
@@ -122,11 +126,14 @@ section, header, nav {
 }
 
 @media screen and (max-width: 720px) {
+  .l-cell {
+    padding: 0 0px;
+  }
+
   .l-header {
     padding-bottom: 0px;
     padding-top: 0px;
   }
-
 
   .l-row {
     padding-bottom: 0px;
@@ -137,9 +144,13 @@ section, header, nav {
   }
 
   .grid-box--1of2 {
-    width: inherit;
+    width: 100%;
     float: none;
     text-align: center;
+  }
+
+  .grid-box--1of2 div a img{
+    height: 150px;
   }
 
   .grid-box--2of2 {
@@ -164,12 +175,22 @@ section, header, nav {
   .nav-link
   {
     display: inline;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     float: none;
+    font-size: 1.2em;
   }
 
   .content
   {
     margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 417px) {
+  .mobile-nav {
+    display: inherit;
+    text-align: center;
+    font-size: 1.5em;
   }
 }
