@@ -236,8 +236,79 @@ section, header, nav {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-device-width : 320px)
 and (max-device-width : 480px) {
+  .l-cell {
+    padding: 0 0px;
+  }
+
+  .l-footer {
+    margin-top: -13px;
+  }
+
+  .l-footer-copyright, .l-footer-address, .l-footer-copyright {
+    display: block;
+  }
+
+  .footer-delimiter {
+    display: none;
+  }
+
+  .l-header {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .l-row {
+    padding-bottom: 0px;
+  }
+
+  .l-row--intro {
+    margin-top: 0px;
+  }
+
+  .grid-box--1of2 {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .grid-box--1of2 div a img{
+    height: 150px;
+  }
+
+  .grid-box--2of2 {
+    margin-bottom: 5px;
+    width: inherit;
+    height: 22px;
+    float: none;
+    text-align: center;
+  }
+
+  .nav--site {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .nav--site ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .nav-link
+  {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: none;
+    font-size: 1.2em;
+  }
+
+  .content
+  {
+    margin-top: 0px;
+  }
+
   #accordion .grid-box--2of2 {
     height: 100px;
     margin-bottom: 10px;
