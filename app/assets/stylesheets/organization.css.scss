@@ -113,8 +113,8 @@ section, header, nav {
 .nav-link
 {
   display: inline;
-  margin-left: 25px;
   float: right;
+  margin: 0px 15px 0px 15px;
 }
 
 .nav-link a
@@ -131,11 +131,11 @@ section, header, nav {
   background-color: #efede8;
 }
 
-@media screen and (max-width: 720px) {
-  #accordion {
-    height: 22px;
-  }
+.small-nav {
+  display: none;
+}
 
+@media screen and (max-width: 720px) {
   .content-section {
     padding: 0px 20px 0px 20px;
   }
@@ -154,6 +154,11 @@ section, header, nav {
 
   .footer-delimiter {
     display: none;
+  }
+
+  .large-nav{
+    display: flex;
+    width: 100%;
   }
 
   .l-header {
@@ -179,10 +184,10 @@ section, header, nav {
     height: 150px;
   }
 
-  #accordion .grid-box--2of2 {
+  .grid-box--2of2 {
     margin-bottom: 5px;
     width: inherit;
-    height: 22px;
+    height: 40px;
     float: none;
     text-align: center;
   }
@@ -198,13 +203,21 @@ section, header, nav {
     margin-bottom: 0px;
   }
 
-  .nav-link
-  {
+  .nav-link {
+    background-color: orange;
+    border:2px solid orange;
+    border-radius:5px;
     display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-top:5px;
     float: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    width: 90%;
+    height: 20px;
+    margin: 0px 5px 0px 5px;
+  }
+
+  .nav-link a {
+    color: white;
   }
 
   .content
@@ -213,7 +226,7 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 425px) {
   .content-section {
     text-align: center;
     padding: 0px 10px 0px 10px;
@@ -221,6 +234,23 @@ section, header, nav {
 
   .grid-box--1of2 {
     margin-bottom: -15px;
+  }
+
+  .grid-box--2of2 {
+    margin: 0px 0px 5px 0px;
+    width: inherit;
+    height: 70px;
+    float: none;
+    text-align: center;
+  }
+
+  .large-nav {
+    display: none;
+  }
+
+  .small-nav {
+    display: -webkit-inline-box;
+    width: 100%;
   }
 
   .mobile-nav {
@@ -231,9 +261,17 @@ section, header, nav {
     margin-bottom: 5px;
   }
 
+  .small-nav-top , .small-nav-bottom {
+    text-align: center;
+    width: 50%;
+  }
+
   .nav-link
   {
+    margin: 5px 5px 5px 5px;
     display: block;
-    margin-bottom: 5px;
+  }
+
+  .nav--site {
   }
 }

@@ -4,13 +4,15 @@
   <title>Wild Fire</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-
+    <!--
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  -->
   <%= csrf_meta_tags %>
 
 
   <script>
+        /*
       $(function() {
           $( "#accordion" ).accordion({
               collapsible: true
@@ -38,6 +40,7 @@
           var active = $( "#accordion" ).accordion( "option", "active" );
 
       }
+      */
   </script>
 </head>
 <body>
@@ -51,20 +54,45 @@
                   </a>
                 </div>
             </div>
-            <div id="accordion">
-              <h3 class="mobile-nav">Menu</h3>
-              <div class="grid-box grid-box--2of2">
-                <nav class="nav--site" id="site-navigation">
-                  <ul>
-                    <li class="nav-link"><a href="http://www.google.com">Spark</a></li>
-                    <li class="nav-link"><a href="http://www.google.com">Contact</a></li>
-                    <li class="nav-link"><a href="http://www.google.com">Events</a></li>
-                    <li class="nav-link"><a href="http://www.google.com">About</a></li>
-                    <li class="nav-link"><a href="http://www.google.com">Home</a></li>
-                  </ul>
-                </nav>
+          <div class="grid-box grid-box--2of2">
+            <nav class="nav--site" id="site-navigation">
+              <div class="large-nav">
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Events</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Spark</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">About</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Contact</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Home</a>
+                    </span>
               </div>
-            </div>
+              <div class="small-nav">
+                <div class="small-nav-top">
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Events</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Spark</a>
+                    </span>
+                </div>
+                <div class="small-nav-bottom">
+                    <span class="nav-link">
+                      <a href="http://www.google.com">About</a>
+                    </span>
+                    <span class="nav-link">
+                      <a href="http://www.google.com">Contact</a>
+                    </span>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
     </div>
 </header>
