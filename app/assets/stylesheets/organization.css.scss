@@ -132,6 +132,10 @@ section, header, nav {
 }
 
 @media screen and (max-width: 720px) {
+  #accordion {
+    height: 22px;
+  }
+
   .l-cell {
     padding: 0 0px;
   }
@@ -171,7 +175,7 @@ section, header, nav {
     height: 150px;
   }
 
-  .grid-box--2of2 {
+  #accordion .grid-box--2of2 {
     margin-bottom: 5px;
     width: inherit;
     height: 22px;
@@ -206,114 +210,6 @@ section, header, nav {
 }
 
 @media screen and (max-width: 401px) {
-  #accordion .grid-box--2of2 {
-    height: 100px;
-    margin-bottom: 10px;
-  }
-
-  .content-section {
-    text-align: center;
-  }
-
-  .grid-box--1of2 {
-    margin-bottom: -15px;
-  }
-
-  .mobile-nav {
-    display: inherit;
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 0px;
-    margin-bottom: 5px;
-  }
-
-  .nav-link
-  {
-    display: block;
-    margin-bottom: 5px;
-  }
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (max-device-width : 480px) {
-  .l-cell {
-    padding: 0 0px;
-  }
-
-  .l-footer {
-    margin-top: -13px;
-  }
-
-  .l-footer-copyright, .l-footer-address, .l-footer-copyright {
-    display: block;
-  }
-
-  .footer-delimiter {
-    display: none;
-  }
-
-  .l-header {
-    padding-bottom: 0px;
-    padding-top: 0px;
-  }
-
-  .l-row {
-    padding-bottom: 0px;
-  }
-
-  .l-row--intro {
-    margin-top: 0px;
-  }
-
-  .grid-box--1of2 {
-    width: 100%;
-    float: none;
-    text-align: center;
-  }
-
-  .grid-box--1of2 div a img{
-    height: 150px;
-  }
-
-  .grid-box--2of2 {
-    margin-bottom: 5px;
-    width: inherit;
-    height: 22px;
-    float: none;
-    text-align: center;
-  }
-
-  .nav--site {
-    margin-top: 0px;
-    float: none;
-  }
-
-  .nav--site ul {
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .nav-link
-  {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: none;
-    font-size: 1.2em;
-  }
-
-  .content
-  {
-    margin-top: 0px;
-  }
-
-  #accordion .grid-box--2of2 {
-    height: 100px;
-    margin-bottom: 10px;
-  }
-
   .content-section {
     text-align: center;
   }

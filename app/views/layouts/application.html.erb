@@ -30,13 +30,13 @@
           var winWidth = $(window).width();
           //alert('height: ' + winHeight + '  ' + 'width: ' + winWidth);
 
-          // getter
-          var active = $( "#accordion" ).accordion( "option", "active" );
-
           if(winWidth <= 383)
               $( "#accordion" ).accordion( "option", "active", false );
           else
               $( "#accordion" ).accordion( "option", "active", 0 );
+
+          var active = $( "#accordion" ).accordion( "option", "active" );
+
       }
   </script>
 </head>
