@@ -128,7 +128,7 @@ section, header, nav {
 .nav-link a
 {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
@@ -160,7 +160,7 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px), handheld and (orientation: landscape) {
   .content
   {
     margin-top: 0px;
@@ -202,6 +202,10 @@ section, header, nav {
 
   .l-row--intro {
     margin-top: 0px;
+  }
+
+  .nav-link a {
+    font-size: 1.2em;
   }
 
   .grid-box--1of2 {
@@ -251,7 +255,7 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px), handheld and (orientation: portrait) {
   .content-section {
     text-align: center;
     padding: 0px 10px 0px 10px;
