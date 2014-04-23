@@ -142,7 +142,7 @@ section, header, nav {
   background-color: rgba(243, 114, 29, 0.3);
   border: solid 2px orange;
   border-radius:5px;
-  height: 600px;
+  min-height: 600px;
   padding-top: 25px;
 }
 
@@ -298,5 +298,11 @@ section, header, nav {
   }
 
   .nav--site {
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .content-med-img img {
+    height: 150px;
   }
 }
