@@ -150,7 +150,7 @@ section, header, nav {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px){
   #LargeLogo {
     display: none;
   }
@@ -255,7 +255,17 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 425px), only screen and (max-device-width: 720px) and (orientation:portrait) {
+@media only screen and (max-device-width: 425px) and (orientation:portrait) {
+  #LargeLogo {
+    display: none;
+  }
+
+  #SmallLogo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px), only screen and (max-device-width: 425px) and (orientation:portrait) {
   .content-section {
     text-align: center;
     padding: 0px 10px 0px 10px;
