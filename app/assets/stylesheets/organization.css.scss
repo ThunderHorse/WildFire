@@ -152,7 +152,7 @@ section, header, nav {
 .nav-link a
 {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.6em;
   text-transform: uppercase;
 }
 
@@ -180,6 +180,10 @@ section, header, nav {
   }
 
   .l-footer-info {
+    font-size: 3.0em;
+  }
+
+  .nav-link a {
     font-size: 3.0em;
   }
 }
@@ -226,10 +230,6 @@ section, header, nav {
 
   .l-row--intro {
     margin-top: 0px;
-  }
-
-  .nav-link a {
-    font-size: 1.2em;
   }
 
   .grid-box--1of2 {
