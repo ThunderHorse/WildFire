@@ -44,13 +44,25 @@ section, header, nav {
   min-height:600px;
 }
 
+.content-section {
+  background-color: rgba(232, 108, 28, 0.07);
+  border-radius:5px;
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 #ContentContainer {
-  background-color: rgba(243, 114, 29, 0.3);
+  background-color: rgba(243, 114, 29, 0.18);
   border: solid 2px orange;
   border-radius:5px;
   min-height: 600px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.img-rotation-container {
+  text-align: center;
 }
 
 .l-header {
@@ -164,6 +176,13 @@ section, header, nav {
   display: none;
 }
 
+@media screen and (max-width: 1050px){
+  .nav-link a
+  {
+    font-size: 1.2em;
+  }
+}
+
 @media screen and (max-width: 900px), only screen and (max-device-width: 720px){
   #LargeLogo {
     display: none;
@@ -183,6 +202,10 @@ section, header, nav {
     font-size: 3.0em;
   }
 
+  .nav-link {
+    height: 30px;
+  }
+
   .nav-link a {
     font-size: 3.0em;
   }
@@ -194,8 +217,8 @@ section, header, nav {
     margin-top: 0px;
   }
 
-  .content-section {
-    padding: 0px 20px 0px 20px;
+  .content-med-img img {
+    text-align: center;
   }
 
   .l-cell {
@@ -282,6 +305,7 @@ section, header, nav {
   .content-section {
     text-align: center;
     padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
   }
 
   .grid-box--1of2 {
