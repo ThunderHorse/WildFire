@@ -150,7 +150,7 @@ section, header, nav {
   display: none;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px), only screen and (max-device-width: 720px){
   #LargeLogo {
     display: none;
   }
@@ -160,7 +160,7 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 720px), only screen and (max-device-width: 720px) and (orientation:landscape) {
+@media screen and (max-width: 720px), only screen and (max-device-width: 720px) {
   .content
   {
     margin-top: 0px;
@@ -252,16 +252,6 @@ section, header, nav {
 
   .nav-link a {
     color: white;
-  }
-}
-
-@media only screen and (max-device-width: 425px) and (orientation:portrait) {
-  #LargeLogo {
-    display: none;
-  }
-
-  #SmallLogo {
-    display: block;
   }
 }
 
