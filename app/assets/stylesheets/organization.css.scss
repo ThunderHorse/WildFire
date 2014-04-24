@@ -16,21 +16,36 @@ body {
   font-size: 62.5%; /* 1em = 10px */
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #f26b14;
+}
+
 h1 {
-  font-size: 2.7em;
+  font-size: 2.2em;
 }
 
 p {
-  font-size: 1.2em;
-  text-align: left;
+  font-size: 1.75em;
+  text-align: justify;
 }
 
 section, header, nav {
   display: block;
 }
 
-#SmallLogo {
-  display: none;
+.content
+{
+  margin-top: 50px;
+  min-height:600px;
+}
+
+#ContentContainer {
+  background-color: rgba(243, 114, 29, 0.3);
+  border: solid 2px orange;
+  border-radius:5px;
+  min-height: 600px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .l-header {
@@ -52,7 +67,7 @@ section, header, nav {
 }
 
 .l-footer-info {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .l-footer-copyright, .l-footer-address, .l-footer-copyright {
@@ -132,18 +147,12 @@ section, header, nav {
   text-transform: uppercase;
 }
 
-.content
-{
-  margin-top: 50px;
-  min-height:600px;
+.signature {
+  text-align: left;
 }
 
-#ContentContainer {
-  background-color: rgba(243, 114, 29, 0.3);
-  border: solid 2px orange;
-  border-radius:5px;
-  min-height: 600px;
-  padding-top: 25px;
+#SmallLogo {
+  display: none;
 }
 
 .small-nav {
@@ -308,5 +317,9 @@ section, header, nav {
 @media screen and (max-width: 270px) {
   .content-med-img img {
     height: 150px;
+  }
+
+  p {
+    font-size: 1.4em;
   }
 }
