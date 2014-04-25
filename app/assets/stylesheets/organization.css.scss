@@ -193,34 +193,6 @@ section, header, nav {
   }
 }
 
-@media only screen and (max-device-width: 720px) {
-  a {
-    font-size: 3.0em;
-  }
-
-  .l-footer-info {
-    font-size: 3.0em;
-  }
-
-  .nav-link {
-    height: 60px;
-    vertical-align: middle;
-    margin: 15px 15px 15px 15px;
-  }
-
-
-  .nav-link a {
-    font-size: 3.0em;
-    padding: 5px 0px 5px 0px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .nav-link {
-    height: 20px;
-  }
-}
-
 @media screen and (max-width: 720px), only screen and (max-device-width: 720px) {
   .content-med-img img {
     text-align: center;
@@ -305,17 +277,30 @@ section, header, nav {
   }
 }
 
-@media screen and (max-width: 425px) {
-  .nav-link
-  {
-    height: 20px;
+@media only screen and (max-device-width: 720px) {
+  a {
+    font-size: 3.0em;
+  }
+
+  .l-footer-info {
+    font-size: 3.0em;
+  }
+
+  .nav-link {
+    height: 60px;
+    padding-top: 25px;
+  }
+
+
+  .nav-link a {
+    font-size: 3.0em;
+    padding: 5px 0px 5px 0px;
   }
 }
 
-@media only screen and (max-device-width: 425px) and (orientation:portrait) {
-  .l-header
-  {
-    margin-bottom: 100px;
+@media screen and (max-width: 720px) {
+  .nav-link {
+    height: 20px;
   }
 }
 
@@ -367,6 +352,20 @@ section, header, nav {
   }
 
   .nav--site {
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-link
+  {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-device-width: 425px) and (orientation:portrait) {
+  .l-header
+  {
+    margin-bottom: 100px;
   }
 }
 
