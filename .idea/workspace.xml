@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/organization.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.64842457" vertical-offset="3111" max-vertical-offset="6528">
-              <caret line="206" column="30" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
+              <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -514,7 +514,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/organization.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64842457" vertical-offset="3111" max-vertical-offset="6528">
-          <caret line="206" column="30" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
+          <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
           <folding />
         </state>
       </provider>
