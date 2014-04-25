@@ -103,7 +103,7 @@ section, header, nav {
 #FooterContainer {
   border: solid 2px #3f4944;
   background: #3f4944;
-  height: 380px;
+  height: 300px;
   padding-top: 20px;
 }
 
@@ -303,6 +303,14 @@ section, header, nav {
 }
 
 @media screen and (max-width: 720px) {
+  .content {
+    margin-top: 0px;
+  }
+
+  .l-row {
+    padding-top: 0px;
+  }
+  
   .nav-link {
     height: 20px;
   }
@@ -354,10 +362,6 @@ section, header, nav {
     width: 50%;
   }
 
-  .small-nav-bottom {
-    padding-left: 3.70%;
-  }
-
   .nav-link
   {
     margin: 5px 5px 5px 5px;
@@ -366,6 +370,10 @@ section, header, nav {
 }
 
 @media screen and (max-width: 425px) {
+  .l-row {
+    padding-top: 5px;
+  }
+
   .nav-link {
     height: 20px;
   }
@@ -378,6 +386,10 @@ section, header, nav {
 
   .l-header {
     margin-bottom: 150px;
+  }
+
+  .small-nav-bottom {
+    padding-left: 3.70%;
   }
 }
 
