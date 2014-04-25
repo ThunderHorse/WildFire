@@ -285,6 +285,15 @@ section, header, nav {
   .l-footer-info {
     font-size: 3.0em;
   }
+
+  .nav-link {
+    height: 30px;
+  }
+
+  .nav-link a {
+    font-size: 2.0em;
+    padding: 5px 0px 5px 0px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -380,7 +389,6 @@ section, header, nav {
 
   .nav-link a {
     font-size: 3.0em;
-    padding: 5px 0px 5px 0px;
   }
 
   .small-nav-bottom {
