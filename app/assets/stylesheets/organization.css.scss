@@ -309,6 +309,13 @@ section, header, nav {
   }
 }
 
+@media only screen and (max-device-width: 425px) and (orientation:portrait) {
+  .content
+  {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 425px), only screen and (max-device-width: 425px) and (orientation:portrait) {
   .content-section {
     text-align: center;
