@@ -28,6 +28,10 @@ h2 {
   font-size: 1.9em;
 }
 
+img {
+  border:none;
+}
+
 p {
   font-size: 1.75em;
   text-align: justify;
@@ -66,7 +70,7 @@ section, header, nav {
 }
 
 .l-header {
-  padding: 20px 0 30px;
+  padding: 20px 0px 30px;
 }
 
 .l-cell {
@@ -222,11 +226,6 @@ section, header, nav {
     display: none;
   }
 
-  .large-nav{
-    display: flex;
-    width: 100%;
-  }
-
   .l-header {
     padding-bottom: 0px;
     padding-top: 0px;
@@ -269,6 +268,7 @@ section, header, nav {
     margin-bottom: 0px;
   }
 
+  /*
   .nav-link {
     background-color: orange;
     border:2px solid orange;
@@ -276,11 +276,73 @@ section, header, nav {
     display: inline;
     padding-top:5px;
     float: none;
-    width: 90%;
+    width: 300px;
     margin: 0px 5px 0px 5px;
   }
 
   .nav-link a {
+    padding: 5px 5px 5px 5px;
+    color: white;
+  }
+  */
+
+  .large-nav {
+    text-align: center;
+    width: 100%
+  }
+
+  .nav-link {
+    width: 16.0%;
+    height: 20px;
+    background-color: orange;
+    border:2px solid orange;
+    border-radius:5px;
+    float: none;
+    margin: 0px 1.5% 0px 1.5%;
+    display: inline-block;
+    padding-top: 1.05%;
+  }
+
+  .nav-link-left {
+    margin-left: 0px;
+  }
+
+  .nav-link-right {
+    margin-right: 0px;
+  }
+
+  .nav-link a {
+    padding: 0.1% 0.1% 0.1% 0.1%;
+    color: white;
+  }
+
+  .test-nav {
+    text-align: center;
+    width: 100%
+  }
+
+  .test-link {
+    width: 16.0%;
+    height: 20px;
+    background-color: orange;
+    border:2px solid orange;
+    border-radius:5px;
+    float: none;
+    margin: 0px 1.5% 0px 1.5%;
+    display: inline-block;
+    padding-top: 1.05%;
+  }
+
+  .test-link-left {
+    margin-left: 0px;
+  }
+
+  .test-link-right {
+    margin-right: 0px;
+  }
+
+  .test-link a {
+    padding: 0.1% 0.1% 0.1% 0.1%;
     color: white;
   }
 }
@@ -339,7 +401,7 @@ section, header, nav {
   }
 
   .small-nav {
-    display: -webkit-inline-box;
+    display: inline-block;
     width: 100%;
   }
 
@@ -353,13 +415,13 @@ section, header, nav {
 
   .small-nav-top , .small-nav-bottom {
     text-align: center;
-    width: 50%;
+    width: 100%;
   }
 
   .nav-link
   {
+    width: 42%;
     margin: 5px 5px 5px 5px;
-    display: block;
   }
 }
 
