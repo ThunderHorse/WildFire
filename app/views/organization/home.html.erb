@@ -1,8 +1,42 @@
 <% provide(:contentTitle, 'Welcome to Wild Fire') %>
-<div class="img-rotation-container">
-  <span class="content-med-img">
-    <%= image_tag("Events/SparkLove/GroupPicFinished.jpg", :alt => "Spark Love", :height => 200) %>
-  </span>
+<div class="cycle-slideshow"
+     data-cycle-pause-on-hover="true"
+     data-cycle-center-horz=true
+     data-cycle-center-vert=true
+     data-cycle-speed="200">
+  <!-- empty element for overlay -->
+  <div class="cycle-overlay"></div>
+  <%= image_tag "Cycler/Cycle1.jpg", :alt => "Spark Love",
+                                        :data => { :cycle_title => "Trash to Treasure",
+                                                   :cycle_desc => "Turning throw away pallet wood into usable benches for Indy Urban Acres."} %>
+
+  <%= image_tag("Cycler/Cycle2.jpg", :alt => "Spark Love",
+                                           :data => { :cycle_title => "Care Packages",
+                                                      :cycle_desc => "Handing out care packages to the people we found in need."}) %>
+
+  <%= image_tag "Cycler/Cycle3.jpg", :alt => "Spark Love",
+                                           :data => { :cycle_title => "Trash to Treasure",
+                                                      :cycle_desc => "Bob showing everyone how to build."} %>
+
+  <%= image_tag "Cycler/Cycle4.jpg", :alt => "Spark Love",
+                :data => { :cycle_title => "Care Packages",
+                           :cycle_desc => "Pre-Assembling care packages before heading out."} %>
+
+  <%= image_tag "Cycler/Cycle5.jpg", :alt => "Spark Love",
+                :data => { :cycle_title => "Trash to Treasure",
+                           :cycle_desc => "Putting paint on our newly built benches."} %>
+
+  <%= image_tag "Cycler/Cycle6.jpg", :alt => "Spark Love",
+                :data => { :cycle_title => "Snow Patrol",
+                           :cycle_desc => "Helping people become mobile again after the 2014 snow storm."} %>
+
+  <%= image_tag "Cycler/Cycle7.jpg", :alt => "Spark Love",
+                :data => { :cycle_title => "Snow Patrol",
+                           :cycle_desc => "Warming up with some delicious Indy Pizza."} %>
+
+  <%= image_tag "Cycler/Cycle8.jpg", :alt => "Spark Love",
+                :data => { :cycle_title => "Trash to Treasure",
+                           :cycle_desc => "Bulding Freindships that last a lifetime."} %>
 </div>
 <div class="content-section">
   <div class="header">
