@@ -1,9 +1,10 @@
 <% provide(:contentTitle, 'Welcome to Wild Fire') %>
+
 <div class="cycle-slideshow"
      data-cycle-pause-on-hover="true"
      data-cycle-center-horz=true
      data-cycle-center-vert=true
-     data-cycle-speed="200">
+     data-cycle-speed="200" >
   <!-- empty element for overlay -->
   <div class="cycle-overlay"></div>
   <%= image_tag "Cycler/Cycle1.jpg", :alt => "Spark Love",
@@ -77,3 +78,7 @@
     <h2>- Wild Fire</h2>
   </div>
 </div>
+
+<%= javascript_tag do %>
+    $( '.cycle-slideshow' ).cycle();
+<% end %>

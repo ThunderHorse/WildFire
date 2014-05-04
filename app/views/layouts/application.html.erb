@@ -4,9 +4,10 @@
   <title>Wild Fire</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <script src="jquery/jquery-1.11.0.min.js"></script>
-  <script src="jquery/jquery.cycle2.min.js"></script>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
 <header class="l-header">
@@ -26,19 +27,19 @@
             <nav class="nav--site" id="site-navigation">
               <div class="large-nav">
                     <span class="nav-link nav-link-left">
-                      <a href="http://www.google.com">Events</a>
+                      <%= link_to "Events",  organization_events_path %>
                     </span>
                     <span class="nav-link">
-                      <a href="http://www.google.com">Spark</a>
+                      <%= link_to "Spark",  organization_spark_path %>
                     </span>
                     <span class="nav-link">
-                      <a href="http://www.google.com">About</a>
+                      <%= link_to "About",  organization_about_path %>
                     </span>
                     <span class="nav-link">
-                      <a href="http://www.google.com">Contact</a>
+                      <%= link_to "Contact",  organization_contact_path %>
                     </span>
                     <span class="nav-link nav-link-right">
-                      <a href="http://www.google.com">Home</a>
+                      <%= link_to "Home",  organization_home_path %>
                     </span>
               </div>
             </nav>
@@ -48,18 +49,18 @@
   <div class="small-nav">
     <div class="small-nav-top">
       <div class="nav-link">
-        <a href="http://www.google.com">Events</a>
+        <%= link_to "Events",  organization_events_path %>
       </div>
       <div class="nav-link">
-        <a href="http://www.google.com">Spark</a>
+        <%= link_to "Spark",  organization_spark_path %>
       </div>
     </div>
     <div class="small-nav-bottom">
       <div class="nav-link">
-        <a href="http://www.google.com">About</a>
+        <%= link_to "About",  organization_about_path %>
       </div>
       <div class="nav-link">
-        <a href="http://www.google.com">Contact</a>
+        <%= link_to "Contact",  organization_contact_path %>
       </div>
     </div>
   </div>
