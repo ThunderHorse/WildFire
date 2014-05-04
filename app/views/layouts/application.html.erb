@@ -15,32 +15,38 @@
         <div class="grid">
             <div class="grid-box grid-box--1of2">
                 <div class="c-logo">
-                  <a id="SmallLogo" href="http://wildfiresparklove.org">
-                    <%= image_tag("logo_Small.jpg", :alt => "Spark Love", :height => 90) %>
-                  </a>
-                  <a id="LargeLogo" href="http://wildfiresparklove.org">
-                    <%= image_tag("logo_Large.jpg", :alt => "Spark Love", :height => 90) %>
-                  </a>
+                  <%= link_to image_tag("logo_Small.jpg", :border => 0, :alt => "Spark Love", :height => 90),  organization_home_path, :id => "SmallLogo" %>
+                  <%= link_to image_tag("logo_Large.jpg", :border => 0, :alt => "Spark Love", :height => 90),  organization_home_path, :id => "LargeLogo" %>
                 </div>
             </div>
           <div class="grid-box grid-box--2of2">
             <nav class="nav--site" id="site-navigation">
               <div class="large-nav">
-                    <span class="nav-link nav-link-left">
-                      <%= link_to "Events",  organization_events_path %>
-                    </span>
-                    <span class="nav-link">
-                      <%= link_to "Spark",  organization_spark_path %>
-                    </span>
-                    <span class="nav-link">
-                      <%= link_to "About",  organization_about_path %>
-                    </span>
-                    <span class="nav-link">
-                      <%= link_to "Contact",  organization_contact_path %>
-                    </span>
-                    <span class="nav-link nav-link-right">
-                      <%= link_to "Home",  organization_home_path %>
-                    </span>
+                    <%= link_to organization_events_path  do %>
+                        <span class="nav-link nav-link-left">
+                          <span>Events</span>
+                        </span>
+                    <% end %>
+                    <%= link_to organization_spark_path  do %>
+                        <span class="nav-link">
+                          <span>Spark</span>
+                        </span>
+                    <% end %>
+                    <%= link_to organization_about_path  do %>
+                        <span class="nav-link">
+                          <span>About</span>
+                        </span>
+                    <% end %>
+                    <%= link_to organization_contact_path  do %>
+                        <span class="nav-link">
+                          <span>Contact</span>
+                        </span>
+                    <% end %>
+                    <%= link_to organization_home_path  do %>
+                        <span class="nav-link nav-link-right">
+                          <span>Home</span>
+                        </span>
+                    <% end %>
               </div>
             </nav>
           </div>
@@ -48,20 +54,28 @@
     </div>
   <div class="small-nav">
     <div class="small-nav-top">
-      <div class="nav-link">
-        <%= link_to "Events",  organization_events_path %>
-      </div>
-      <div class="nav-link">
-        <%= link_to "Spark",  organization_spark_path %>
-      </div>
+      <%= link_to organization_events_path  do %>
+        <div class="nav-link">
+          <span>Events</span>
+        </div>
+      <% end %>
+      <%= link_to organization_spark_path  do %>
+          <div class="nav-link">
+            <span>Spark</span>
+          </div>
+      <% end %>
     </div>
     <div class="small-nav-bottom">
-      <div class="nav-link">
-        <%= link_to "About",  organization_about_path %>
-      </div>
-      <div class="nav-link">
-        <%= link_to "Contact",  organization_contact_path %>
-      </div>
+      <%= link_to organization_about_path  do %>
+          <div class="nav-link">
+            <span>About</span>
+          </div>
+      <% end %>
+      <%= link_to organization_contact_path  do %>
+          <div class="nav-link">
+            <span>Contact</span>
+          </div>
+      <% end %>
     </div>
   </div>
 </header>

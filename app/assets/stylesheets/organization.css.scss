@@ -289,10 +289,10 @@ section, header, nav {
   margin: 0px 15px 0px 15px;
 }
 
-.nav-link a
+.nav-link span
 {
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
@@ -305,7 +305,7 @@ section, header, nav {
 }
 
 @media screen and (max-width: 1050px){
-  .nav-link a
+  .nav-link span
   {
     font-size: 1.2em;
   }
@@ -425,7 +425,7 @@ section, header, nav {
     margin-right: 0px;
   }
 
-  .nav-link a {
+  .nav-link span {
     padding: 0.1% 0.1% 0.1% 0.1%;
     color: white;
   }
