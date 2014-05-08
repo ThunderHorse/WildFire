@@ -305,6 +305,16 @@ section, header, nav {
   display: none;
 }
 
+.wildFire {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+h1 .wildFire {
+  font-size: 120%;
+}
+
 @media screen and (max-width: 1050px){
   .nav-link span
   {
