@@ -466,6 +466,10 @@ section, header, nav {
   .l-footer-info {
     font-size: 3.0em;
   }
+  
+  .list--social a img {
+    height: 35px;
+  }
 
   .nav-link {
     height: 30px;
@@ -553,6 +557,10 @@ section, header, nav {
 }
 
 @media screen and (max-width: 425px) {
+  .cycle-overlay {
+    font-size: 1.0em;
+  }
+
   .l-row {
     padding-top: 5px;
   }
