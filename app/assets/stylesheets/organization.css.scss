@@ -32,10 +32,6 @@ img {
   border:none;
 }
 
-address {
-  font-size: 1.6em;
-}
-
 p {
   text-align: justify;
   font-size: 1.75em;
@@ -602,10 +598,6 @@ h1 .wildFire {
 @media screen and (max-width: 270px) {
   .content-med-img img {
     height: 150px;
-  }
-
-  address {
-    font-size:1.1em;
   }
 
   body {
