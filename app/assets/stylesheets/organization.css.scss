@@ -32,9 +32,13 @@ img {
   border:none;
 }
 
+address {
+  font-size: 1.6em;
+}
+
 p {
-  font-size: 1.75em;
   text-align: justify;
+  font-size: 1.75em;
   color: #3f4944;
 }
 
@@ -501,8 +505,8 @@ h1 .wildFire {
 }
 
 @media screen and (max-width: 432px), only screen and (max-device-width: 432px) and (orientation:portrait) {
-  h1 {
-
+  address {
+    font-size: 1.4em;
   }
 
   .content-section {
@@ -598,6 +602,10 @@ h1 .wildFire {
 @media screen and (max-width: 270px) {
   .content-med-img img {
     height: 150px;
+  }
+
+  address {
+    font-size:1.1em;
   }
 
   body {
