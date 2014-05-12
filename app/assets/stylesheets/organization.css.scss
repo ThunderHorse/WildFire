@@ -32,9 +32,12 @@ img {
   border:none;
 }
 
+p, .socialContactInfo{
+  font-size: 1.75em;
+}
+
 p {
   text-align: justify;
-  font-size: 1.75em;
   color: #3f4944;
 }
 
@@ -306,6 +309,16 @@ section, header, nav {
 
 .small-nav {
   display: none;
+}
+
+.socialContactInfo {
+
+}
+
+.vertCenter {
+  vertical-align: middle;
+  display: inline-block;
+  height: 61px;
 }
 
 .wildFire {
@@ -616,7 +629,7 @@ h1 .wildFire {
     font-size: 1.4em;
   }
 
-  p {
+  p, .socialContactInfo {
     font-size: 1.2em;
   }
 }
