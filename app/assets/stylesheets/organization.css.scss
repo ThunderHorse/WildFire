@@ -498,6 +498,10 @@ h1 .wildFire {
     color: white;
   }
 
+  .socialContactLinks span a img {
+    height: 150px;
+  }
+
   .test-nav {
     text-align: center;
     width: 100%
@@ -708,15 +712,11 @@ h1 .wildFire {
   .nav-link span {
     font-size: 3.0em;
   }
-
-  .socialContactLinks span a img {
-    height: 125px;
-  }
 }
 
 @media screen and (max-width: 330px) {
-  .bisect {
-    font-size: 0.8em;
+ p {
+    font-size: 1.35em;
   }
 }
 
