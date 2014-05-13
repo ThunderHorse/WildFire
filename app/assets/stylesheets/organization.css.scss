@@ -45,10 +45,29 @@ section, header, nav {
   display: block;
 }
 
+.bisect {
+  display: flex;
+}
+
 .content
 {
   margin-top: 50px;
   min-height:600px;
+}
+
+.content-left, .content-right {
+  width: 50%;
+}
+.content-right {
+  text-align: center;
+  padding-right: 5%;
+}
+
+.content-right img {
+  margin-left:7%;
+  width: 80%;
+  margin-top: 9%;
+  margin-bottom: 10%;
 }
 
 .content-section {
@@ -303,6 +322,10 @@ section, header, nav {
   text-transform: uppercase;
 }
 
+.p-right {
+  text-align: left;
+}
+
 #SmallLogo {
   display: none;
 }
@@ -311,14 +334,10 @@ section, header, nav {
   display: none;
 }
 
-.socialContactInfo {
-
-}
-
 .vertCenter {
   vertical-align: middle;
   display: inline-block;
-  height: 61px;
+  height: 45px;
 }
 
 .wildFire {
@@ -345,6 +364,32 @@ h1 .wildFire {
 
   #SmallLogo {
     display: block;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .bisect {
+    text-align: center;
+  }
+
+  .header {
+    display: inline;
+    text-align: inherit;
+  }
+
+  .p-right {
+    text-align: inherit;
+  }
+
+  .socialContactLinks {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .vertCenter {
+    display: block;
+    vertical-align: none;
+    height: auto;
   }
 }
 
@@ -513,6 +558,43 @@ h1 .wildFire {
   }
 }
 
+@media screen and (max-width: 620px) {
+  .bisect {
+    font-size: 0.75em;
+  }
+
+  .content-left {
+    margin-top: 1.5%;
+  }
+
+  .content-right img {
+    margin-left:21%;
+    width: auto;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .bisect {
+    width: inherit;
+    display: block;
+  }
+
+  .content-left, .content-right {
+    width: inherit;
+  }
+
+  .content-right {
+    padding-right: 0%;
+  }
+
+  .content-right img {
+    width: 80%;
+    height: auto;
+    margin: 5% 0% 0% 0%;
+  }
+}
+
 @media screen and (max-width: 432px), only screen and (max-device-width: 432px) and (orientation:portrait) {
   address {
     font-size: 1.4em;
@@ -575,6 +657,10 @@ h1 .wildFire {
 }
 
 @media screen and (max-width: 432px) {
+  .bisect {
+    font-size: 1.0em;
+  }
+
   .cycle-overlay {
     font-size: 1.0em;
   }
@@ -605,6 +691,12 @@ h1 .wildFire {
 
   .nav-link span {
     font-size: 3.0em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .bisect {
+    font-size: 0.8em;
   }
 }
 
