@@ -367,7 +367,7 @@ h1 .wildFire {
   }
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 845px), only screen and (max-device-width: 845px){
   .bisect {
     text-align: center;
   }
