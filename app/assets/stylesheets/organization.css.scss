@@ -574,6 +574,12 @@ h1 .wildFire {
   }
 }
 
+@media screen and (max-width: 510px) {
+  .bisect {
+    font-size: 1.0em;
+  }
+}
+
 @media only screen and (max-device-width: 510px) and (orientation:portrait) {
   p {
     font-size: 2.0em;
@@ -581,12 +587,6 @@ h1 .wildFire {
 
   .bisect {
     font-size: 2.0em;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .bisect {
-    font-size: 1.0em;
   }
 }
 
@@ -710,7 +710,7 @@ h1 .wildFire {
   }
 
   .socialContactLinks span a img {
-    height: 100px;
+    height: 125px;
   }
 }
 
