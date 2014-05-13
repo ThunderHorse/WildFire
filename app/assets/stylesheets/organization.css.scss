@@ -574,7 +574,7 @@ h1 .wildFire {
   }
 }
 
-@media screen and (max-width: 510px), only screen and (max-device-width: 720px) and (orientation:portrait) {
+@media screen and (max-width: 510px), only screen and (orientation:portrait) {
   .bisect {
     font-size: 1.0em;
     width: inherit;
