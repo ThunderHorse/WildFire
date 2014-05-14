@@ -63,11 +63,19 @@ section, header, nav {
   padding-right: 5%;
 }
 
-.content-right img {
+.contactImg, .eventImg {
   margin-left:7%;
-  width: 80%;
   margin-top: 9%;
   margin-bottom: 10%;
+}
+
+.contactImg {
+  width: 80%;
+}
+
+.eventImg {
+  margin: 15% 0% 15% 0%;
+  width: 80%;
 }
 
 .content-section {
@@ -344,6 +352,7 @@ section, header, nav {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-weight: bold;
   font-size: 110%;
+  white-space: nowrap;
 }
 
 h1 .wildFire {
@@ -498,10 +507,6 @@ h1 .wildFire {
     color: white;
   }
 
-  .socialContactLinks span a img {
-    height: 75px;
-  }
-
   .test-nav {
     text-align: center;
     width: 100%
@@ -571,10 +576,13 @@ h1 .wildFire {
     margin-top: 1.5%;
   }
 
-  .content-right img {
+  .contactImg, .eventImg {
     margin-left:21%;
-    width: auto;
+  }
+
+  .contactImg {
     height: 180px;
+    width: auto;
   }
 }
 
@@ -616,10 +624,17 @@ h1 .wildFire {
     padding-right: 0%;
   }
 
-  .content-right img {
-    width: 80%;
+  .contactImg, .eventImg {
     height: auto;
     margin: 5% 0% 5% 0%;
+  }
+
+  .contactImg {
+    width: 80%;
+  }
+
+  .eventImg {
+    width: 100%;
   }
 }
 
