@@ -63,9 +63,6 @@ section, header, nav {
   width: 50%;
 }
 
-.content-left .p-right {
-  font-size: 1.95em;
-}
 .content-right {
   text-align: center;
   padding-right: 5%;
@@ -547,6 +544,10 @@ h1 .wildFire {
 }
 
 @media only screen and (max-device-width: 720px) {
+  .content-left .p-right {
+    font-size: 2.9em;
+  }
+
   .l-footer-info {
     font-size: 3.0em;
   }
