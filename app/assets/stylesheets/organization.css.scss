@@ -406,38 +406,6 @@ h1 .wildFire {
   }
 }
 
-@media screen and (max-width: 780px), only screen and (max-device-width: 780px) {
-  .bisect {
-    width: inherit;
-    display: block;
-  }
-
-  .content-section {
-    padding-bottom: 25px;
-  }
-
-  .content-left, .content-right {
-    width: inherit;
-  }
-
-  .content-right {
-    padding-right: 0%;
-  }
-
-  .contactImg, .eventImg {
-    height: auto;
-    margin: 5% 0% 5% 0%;
-  }
-
-  .contactImg {
-    width: 80%;
-  }
-
-  .eventImg {
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 720px), only screen and (max-device-width: 720px) {
   .content {
     margin-top: 0px;
@@ -624,17 +592,35 @@ h1 .wildFire {
   }
 }
 
-@media only screen and (max-device-width: 510px) and (orientation:portrait) {
-  p {
-    font-size: 2.0em;
-  }
-
+@media screen and (max-width: 510px), only screen and (max-device-width: 510px) {
   .bisect {
-    font-size: 2.0em;
+    width: inherit;
+    display: block;
   }
 
-  .socialContactLinks span a img {
-    height: 125px;
+  .content-section {
+    padding-bottom: 25px;
+  }
+
+  .content-left, .content-right {
+    width: inherit;
+  }
+
+  .content-right {
+    padding-right: 0%;
+  }
+
+  .contactImg, .eventImg {
+    height: auto;
+    margin: 5% 0% 5% 0%;
+  }
+
+  .contactImg {
+    width: 80%;
+  }
+
+  .eventImg {
+    width: 100%;
   }
 }
 
