@@ -62,6 +62,10 @@ section, header, nav {
 .content-left, .content-right {
   width: 50%;
 }
+
+.content-left .p-right {
+  font-size: 3.25em;
+}
 .content-right {
   text-align: center;
   padding-right: 5%;
