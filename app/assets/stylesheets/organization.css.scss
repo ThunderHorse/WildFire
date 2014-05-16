@@ -56,7 +56,7 @@ section, header, nav {
 }
 
 .content-center {
-  width: 100%;
+
 }
 
 .content-left, .content-right {
@@ -572,10 +572,6 @@ h1 .wildFire {
 }
 
 @media screen and (max-width: 620px) {
-  .bisect {
-    font-size: 0.75em;
-  }
-
   .content-left {
     margin-top: 1.5%;
   }
