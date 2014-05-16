@@ -32,11 +32,8 @@ img {
   border:none;
 }
 
-p, .socialContactInfo{
-  font-size: 1.75em;
-}
-
 p {
+  font-size: 1.75em;
   text-align: justify;
   color: #3f4944;
 }
@@ -348,10 +345,18 @@ section, header, nav {
   display: none;
 }
 
+.socialContactInfo{
+  font-size: 1.75em;
+}
+
+.socialContactLinks {
+  white-space: nowrap;
+}
+
 .vertCenter {
   vertical-align: middle;
   display: inline-block;
-  height: 45px;
+  height: 50px;
 }
 
 .wildFire {
