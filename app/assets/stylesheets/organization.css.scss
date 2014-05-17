@@ -387,7 +387,7 @@ h1 .wildFire {
   }
 }
 
-@media screen and (max-width: 845px), only screen and (max-device-width: 845px){
+@media screen and (max-width: 720px), only screen and (max-device-width: 720px) {
   .bisect {
     text-align: center;
   }
@@ -411,9 +411,7 @@ h1 .wildFire {
     vertical-align: none;
     height: auto;
   }
-}
 
-@media screen and (max-width: 720px), only screen and (max-device-width: 720px) {
   .content {
     margin-top: 0px;
   }
@@ -708,31 +706,15 @@ h1 .wildFire {
     margin-bottom: 5px;
   }
 
-  .p-right span {
-    font-size: 2.13em;
-  }
-
-  .p-right span a{
-    font-size: inherit;
-  }
-
   .small-nav-top , .small-nav-bottom {
     text-align: center;
     width: 100%;
-  }
-
-  .socialImg {
-    height: 90px;
   }
 
   .nav-link
   {
     width: 42%;
     margin: 5px 5px 5px 5px;
-  }
-
-  .vertCenter {
-    font-size: 2.05em;
   }
 }
 
@@ -767,6 +749,22 @@ h1 .wildFire {
 
   .nav-link span {
     font-size: 3.0em;
+  }
+
+  .p-right span {
+    font-size: 2.13em;
+  }
+
+  .p-right span a{
+    font-size: inherit;
+  }
+
+  .socialImg {
+    height: 90px;
+  }
+
+  .vertCenter {
+    font-size: 2.05em;
   }
 }
 
