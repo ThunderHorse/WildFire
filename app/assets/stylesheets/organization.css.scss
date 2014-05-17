@@ -709,16 +709,20 @@ h1 .wildFire {
   }
 
   .p-right span {
-    font-size: 2.55em;
+    font-size: 2.13em;
   }
 
   .p-right span a{
-    font-size: 0.78em;
+    font-size: inherit;
   }
 
   .small-nav-top , .small-nav-bottom {
     text-align: center;
     width: 100%;
+  }
+
+  .socialImg {
+    height: 90px;
   }
 
   .nav-link
