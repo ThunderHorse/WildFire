@@ -733,8 +733,13 @@ h1 .wildFire {
 }
 
 @media only screen and (max-device-width: 432px) and (orientation:portrait) {
+  .contactText {
+    font-size: 1.45em;
+  }
+
   .content-left .header h1 {
-    font-size: 4.95em;
+    font-size: 4.55em;
+    margin: 20px 0% 0px 0%;
   }
 
   .cycle-overlay {
@@ -755,16 +760,8 @@ h1 .wildFire {
     font-size: 3.0em;
   }
 
-  .p-right span {
-    font-size: 2.13em;
-  }
-
   .p-right .wildFire {
     font-size: 110%;
-  }
-
-  .p-right span a{
-    font-size: inherit;
   }
 
   .socialImg {
@@ -772,7 +769,7 @@ h1 .wildFire {
   }
 
   .vertCenter {
-    font-size: 2.05em;
+    font-size: 2.22em;
   }
 }
 
