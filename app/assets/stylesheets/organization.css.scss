@@ -3,9 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 a {
-  text-decoration: none;
-  color: #3f4944;
+  color: blue;
   font-size: 1.1em;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
 }
 
 html {
@@ -251,6 +258,11 @@ section, header, nav {
   text-align: right;
 }
 
+.large-nav a {
+  color: #3f4944;
+  text-decoration: none;
+}
+
 .l-header {
   padding: 20px 0px 30px;
 }
@@ -375,6 +387,10 @@ section, header, nav {
 
 .socialContactLinks {
   white-space: nowrap;
+}
+
+.socialContactLinks span a {
+  text-decoration: none;
 }
 
 .vertCenter {
