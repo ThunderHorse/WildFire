@@ -100,6 +100,11 @@ section, header, nav {
   margin-bottom: 20px;
 }
 
+.content-title {
+  color: #f26b14;
+  font-size: 1.9em;
+}
+
 #ContentContainer {
   background-color: rgba(243, 114, 29, 0.18);
   border: solid 2px orange;
@@ -367,6 +372,10 @@ section, header, nav {
 
 .p-right {
   text-align: left;
+}
+
+.quote {
+  font-style: italic;
 }
 
 .signature {
