@@ -14,6 +14,13 @@ class OrganizationController < ApplicationController
   def events
   end
 
+  def eventInfo
+  end
+
   def contact
+  end
+
+  def may2application
+      send_file 'public/downloads/wildfirestarwarsartexhibitapplication.pdf', :type=>"application/pdf", :x_sendfile=>true
   end
 end

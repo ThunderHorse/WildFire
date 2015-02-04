@@ -92,12 +92,26 @@ section, header, nav {
   width: 80%;
 }
 
+.eventInfoCenterImg {
+  margin: 3% 0% 0% 0%;
+  width: 100%;
+}
+
+.eventInfoCenterImgMedium {
+  margin: 3% 0% 0% 9%;
+  width: 80%;
+}
+
 .content-section {
   background-color: rgba(232, 108, 28, 0.07);
   border-radius:5px;
   padding: 5px 20px 5px 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.eventInfo {
+  background-color: transparent;
 }
 
 .content-title {
@@ -380,6 +394,16 @@ section, header, nav {
 
 .signature {
   text-align: left;
+}
+
+.sponsors {
+  text-align: right;
+}
+
+.sponsors img {
+  width: 33%;
+  margin-left: 10%;
+  vertical-align: top;
 }
 
 #SmallLogo {
@@ -828,6 +852,13 @@ h1 .wildFire {
 
   .vertCenter {
     font-size: 2.22em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .eventInfoCenterImgMedium {
+    margin: 3% 0% 0% 0%;
+    width: 80%;
   }
 }
 
